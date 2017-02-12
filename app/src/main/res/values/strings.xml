@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FinalExam</string>
+    <string name="submit">Submit</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="logout">Logout</string>
+    <string name="heartbtn_hint">button1</string>
+    <string name="messagebtn_hint">button2</string>
+    <string name="settingtbtn_hint">button3</string>
+    <string name="navigation_drawer_open">drawer open</string>
+    <string name="navigation_drawer_close">drawer close</string>
+</resources>

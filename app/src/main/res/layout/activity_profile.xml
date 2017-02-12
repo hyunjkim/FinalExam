@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <ImageView
+        android:background="@drawable/userimage"
+        android:layout_width="@dimen/profile_iv"
+        android:layout_height="@dimen/profile_iv"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="@dimen/profile_paddingbelow_iv" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_marginRight="@dimen/profile_margin_10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/heartBtn"
+                android:layout_width="@dimen/profile_btn"
+                android:layout_height="@dimen/profile_btn"
+                android:layout_marginBottom="@dimen/profile_margin_10dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/heartTV"
+                android:layout_width="@dimen/profile_btn"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:hint="@string/heartbtn_hint" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/messageBtn"
+                android:layout_width="@dimen/profile_btn"
+                android:layout_height="@dimen/profile_btn"
+                android:layout_marginBottom="@dimen/profile_margin_10dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/messageTV"
+                android:layout_width="@dimen/profile_btn"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:hint="@string/messagebtn_hint" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/profile_margin_10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/settingBtn"
+                android:layout_width="@dimen/profile_btn"
+                android:layout_height="@dimen/profile_btn"
+                android:layout_marginBottom="@dimen/profile_margin_10dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/settingTV"
+                android:layout_width="@dimen/profile_btn"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:hint="@string/settingtbtn_hint" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/profile_margin_10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/logoutBtn"
+                android:layout_width="@dimen/profile_btn"
+                android:layout_height="@dimen/profile_btn"
+                android:layout_marginBottom="@dimen/profile_margin_10dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/logoutTV"
+                android:layout_width="@dimen/profile_btn"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/logout" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
